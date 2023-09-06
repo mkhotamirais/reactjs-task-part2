@@ -1,5 +1,13 @@
+import store from "../app/store";
+import Counter from "./ReduxMateri/Counter";
+import { Provider } from "react-redux";
+
 const MyRedux = () => {
-  return <div>MyRedux</div>;
+  return (
+    <Provider store={store}>
+      <Counter />
+    </Provider>
+  );
 };
 
 export default MyRedux;
