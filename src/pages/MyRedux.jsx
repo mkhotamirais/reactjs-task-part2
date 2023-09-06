@@ -1,4 +1,4 @@
-import store from "../app/store";
+import store from "../app/store.js";
 import Counter from "./ReduxMateri/Counter";
 import { Provider } from "react-redux";
 
